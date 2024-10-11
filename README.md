@@ -8,12 +8,17 @@ Calculate the total time spent on sports during a week.
 The application can be run locally or in a Docker container, and it is also integrated with Jenkins for Continuous Integration and Deployment (CI/CD).
 
 Table of Contents
+
 Technologies Used
+
 How to Build and Run Locally
+
 How to Build and Run in Docker
+
 How to Run the Jenkins Pipeline
-Additional Notes
+
 Technologies Used
+
 Java: Version 21
 Maven: For building the project and managing dependencies.
 JUnit: For unit testing.
