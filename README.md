@@ -50,14 +50,22 @@ Run the application: After the project is built, you can run the application wit
 bash
 Copy code
 java -jar target/Week7-1.0-SNAPSHOT.jar
+
+
 Using the Application: The application will present a menu with the following options:
 
 1: Log a new activity.
+
 2: View logged activities.
+
 3: Calculate total time spent on activities.
+
 4: Exit the application.
-How to Build and Run in Docker
-Prerequisites
+
+How to Build and Run in Docker:
+
+Prerequisites:
+
 Docker installed on your machine. You can install Docker Desktop from here.
 Steps to Run in Docker
 Clone the repository:
@@ -79,23 +87,37 @@ docker run -it --rm japuter/sports-time-tracker:latest
 Using the Application: You will see the same options as in the local run:
 
 1: Log a new activity.
+
 2: View logged activities.
+
 3: Calculate total time spent on activities.
+
 4: Exit the application.
+
 How to Run the Jenkins Pipeline
-Prerequisites
+
+Prerequisites:
+
 Jenkins installed and configured (either locally or on a server).
+
 GitHub repository linked to Jenkins.
+
 Steps to Run the Jenkins Pipeline
+
 Clone the repository: Make sure your Jenkins job is pulling the code from this GitHub repository: https://github.com/japuter/Week7.
 
 Jenkins Pipeline Setup: The pipeline is defined in the Jenkinsfile located in the root directory of this repository. It automates the following steps:
 
 Checkout the code from GitHub.
+
 Build the Java application using Maven.
+
 Run Tests using JUnit.
+
 Build the Docker image.
+
 Push the Docker image to Docker Hub.
+
 Run the Pipeline:
 
 Navigate to your Jenkins job dashboard.
